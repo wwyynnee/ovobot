@@ -4,13 +4,13 @@ My telegram bot
 **Bot commands**
 
 __Animal Facts:__
-*/cat* - About cats\n
-*/dog* - About dogs
-*/fox* - About foxes
-*/panda* - About pandas
-*/bird* - About birds
-*/koala* - About koalas
-*/raccoon* - About raccoons
+*/cat* - About cats<br>
+*/dog* - About dogs<br>
+*/fox* - About foxes<br>
+*/panda* - About pandas<br>
+*/bird* - About birds<br>
+*/koala* - About koalas<br>
+*/raccoon* - About raccoons<br>
 */kangaroo* - About kangaroo
 
 __NSFW commands:__
