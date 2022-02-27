@@ -4,7 +4,7 @@ My telegram bot
 **Bot commands**
 
 __Animal Facts:__
-*/cat* - About cats
+*/cat* - About cats\n
 */dog* - About dogs
 */fox* - About foxes
 */panda* - About pandas
