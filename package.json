@@ -1,0 +1,20 @@
+{
+  "name": "ovo-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "axios": "^0.22.0",
+    "superagent": "^6.1.0",
+    "nekos.life": "^2.0.7"
+  }
+}
