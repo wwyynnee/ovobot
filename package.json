@@ -1,20 +1,23 @@
 {
-  "name": "ovo-bot",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Telegram bot",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.54.0",
+    "@types/node": "^18.0.6",
+    "axios": "^0.27.2",
     "bluebird": "^3.7.2",
-    "dotenv": "^10.0.0",
-    "axios": "^0.22.0",
-    "superagent": "^6.1.0",
-    "nekos.life": "^2.0.7"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "nekos.life": "^3.0.0",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.59.0",
+    "superagent": "^8.0.2"
   }
 }

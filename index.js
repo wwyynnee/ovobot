@@ -12,6 +12,20 @@ Promise.config({
   cancellation: true
 });
 
+// сервер
+const express = require("express");
+const server = express();
+
+server.all("/", (req, res) => {
+  res.send("Бот запускается...")
+})
+
+server.listen(process.env.PORT, () => {
+  console.log("Сервер готов")
+})
+
+// бот
+// кнопка
 const keyboard = [
   [
     {
@@ -21,7 +35,7 @@ const keyboard = [
   ]
 ];
 
-bot.on("message", async function(message, args) {
+bot.on("message", async (message, args) => {
   const chatId = message.chat.id;
   if (message.text == "/start") {
     bot.on("message", message => {
@@ -38,6 +52,7 @@ bot.on("message", async function(message, args) {
   }
 
   bot.on("callback_query", msg => {
+    console.log("Запуск!")
     const chatId = msg.message.chat.id;
     if (msg.data === "cmds") {
       bot.sendMessage(
@@ -256,7 +271,7 @@ bot.on("message", async function(message, args) {
   }
 
 
-  /* Animals Begin */
+  /* Animals */
 
   if (message.text == "/cat") {
     const url = "https://some-random-api.ml/img/cat";
@@ -377,5 +392,4 @@ bot.on("message", async function(message, args) {
     bot.sendMessage(chatId, fact.fact);
     bot.sendPhoto(chatId, image.link);
   }
-  /* Animals End */
 });
