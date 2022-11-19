@@ -1,7 +1,7 @@
-### ovobot
-My telegram bot
+# OvoBot
+A simple Telegram bot about animals and NSFW commands
 
-**Bot commands**
+## Bot commands
 
 __Animal Facts:__<br>
 */cat* - About cats<br>
@@ -15,5 +15,5 @@ __Animal Facts:__<br>
 
 __NSFW commands:__<br>
 */neko, /hentai, /hentai-gif, /fox-girl, /wallpaper, /cum, /anal, /boobs, /trap, /hug,
-/kiss, /solog, /smug, /feet, /lewdkemo, / gasm, /solo, /hug, /avatar, /slap,
+/kiss, /solog, /smug, /feet, /lewdkemo, /gasm, /solo, /hug, /avatar, /slap,
 /forest, /baka, /nsfw-avatar, /nsfw-neko, /nsfw-nekogif, /nekogif, /cumart*
